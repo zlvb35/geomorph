@@ -59,7 +59,7 @@ f5eb519f31a9403dab946d164ccfd995 *man/morphol.disparity.Rd
 9809c8341989ac2b605478f117c9b5bc *man/na.omit.geomorph.data.frame.Rd
 993068e1c60562070e87be029eebfa6a *man/phylo.integration.Rd
 7f08bf6be6848cc41d9fe4a428827310 *man/phylo.modularity.Rd
-8572d683d1cb5e40fd4350966a57231b *man/physignal.eigen.Rd
+8f96a4e056357f801c8901afe53c78a9 *man/physignal.eigen.Rd
 5d068ebaead7824eecc43bf7a372261a *man/physignal.Rd
 96417490d609895ff28e3ecb7b34a4ff *man/physignal.z.Rd
 0063d4a89dc1d1383dda335a5e552965 *man/picknplot.shape.Rd
@@ -183,7 +183,7 @@ a154599cedb0b5548dcd575fa7532bfb *R/modularity.test.r
 9e7d73230ba2e711b16aa833fbaa27f5 *R/morphol.disparity.r
 4a95e963db830d97e378c3fd4460d56a *R/phylo.integration.r
 5b3732663b03279af125011d51108032 *R/phylo.modularity.r
-a6539ddbbb2f6525b4ceacf294ea5dd8 *R/physignal.eigen.R
+5563a60cb92aa0cfe47d35783ceaf24a *R/physignal.eigen.R
 a10d2351f5d3ce09e26e005f8f9c1676 *R/physignal.r
 97f333aab7db7d1c1899281ad5ab7dcd *R/physignal.z.r
 85ebbf8036df4f7b4a7498bd6550bfbe *R/picknplot.shape.r
@@ -212,6 +212,7 @@ a46c9d7180adf562e1cf5dad7600619c *R/two.b.pls.r
 ce64f40b8badacea0852af718e718355 *R/warpRefOutline.r
 ad572d6203f667d37641cee3adbc72b7 *R/writeland.tps.r
 c74a911cb0e86f68f556cbff5c5f213c *README.md
+d0410ecd8608b7019c84b348277bb76d *revdep/data.sqlite
 0c7f793ce4a81cedc1dfec479f7dce1f *tests/testthat.R
 da5e76b83761d1899c07a0d7e0d02d23 *tests/testthat/test-geomorph.R
 d3e5db710ad3bfca0e5be89edc91a2a9 *vignettes/figs/example_spec2.png
