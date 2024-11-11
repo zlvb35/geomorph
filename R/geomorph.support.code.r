@@ -155,6 +155,23 @@ NULL
 #' stability, modularity and allometry in lizard head shape. American Naturalist 185: 44-58.
 NULL
 
+#' Landmarks on pupfish
+#'
+#' @name pupfish.ws
+#' @docType data
+#' @author Dean Adams and Michael Collyer
+#' @keywords datasets
+#' @description Landmark data from pupfish body shapes, with indication of Sex, Population and
+#' Species from which fish were sampled. Landmarks represent a subset of those from the 
+#' original publication. A phylogeny and phylogenetic covariance matrix are
+#' included. 
+#' @details These data were previously aligned
+#' with GPA.  Centroid size (CS) is also provided.
+#' @references Adams, D.C and M.L Collyer. 2024. Extending phylogenetic regression models for 
+#' comparing within-species patterns across the tree of life. 
+#' Methods in Ecology and Evolution. DOI: 10.1111/2041-210X.14438
+NULL
+
 #' Estimate mean shape for a set of aligned specimens
 #'
 #' Estimate the mean shape for a set of aligned specimens
