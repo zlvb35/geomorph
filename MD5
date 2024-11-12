@@ -35,7 +35,7 @@ bf6e75848a9f50b3b98437a0bfe2a9b9 *man/define.links.Rd
 2c96bfc67bfe553181d8e756bed0e472 *man/digitsurface.Rd
 2c0305355c82969e032f5d031e96aaaa *man/editTemplate.Rd
 43bd2dfc7d2a3531eaf472cae661c4ad *man/estimate.missing.Rd
-dcf36cde267861ffab284694eb596d1f *man/extended.pgls.Rd
+a08f55385745a50b5f480d984b8c27ea *man/extended.pgls.Rd
 e5ea7eb05043e14bf36bb1c553de0576 *man/findMeanSpec.Rd
 ac1dfe0039664661983fd52a3016da46 *man/fixed.angle.Rd
 a6a3aaf17db71b32e910548cb49c55f4 *man/geomorph-package.Rd
@@ -167,7 +167,7 @@ c47b0747b2dc6d4b069d69f6fad2538d *R/digitize2d.r
 9e1cee71db42d5b9e373a33a17fb7215 *R/digitsurface.r
 068db4d412d39586d25d20bf3f4118fe *R/editTemplate.r
 6e862a705bb74316be5d5e910431b634 *R/estimate.missing.r
-2727a0c6bf4984cef4957773f74d714a *R/extended.pgls.r
+5e19d76997672d337ab5f1cbf55c4959 *R/extended.pgls.r
 aac6a4f8a759473e8c37048e5c8e3d91 *R/findMeanSpec.r
 b792f75d1fb825423b03a8711c0120a4 *R/fixed.angle.r
 14c82d650f7cbbf5ef8786303b1e0373 *R/geomorph.data.frame.r
@@ -216,7 +216,7 @@ ce64f40b8badacea0852af718e718355 *R/warpRefOutline.r
 ad572d6203f667d37641cee3adbc72b7 *R/writeland.tps.r
 c74a911cb0e86f68f556cbff5c5f213c *README.md
 0c7f793ce4a81cedc1dfec479f7dce1f *tests/testthat.R
-b82dc5655428b6e89eabcbfc5c1a3f57 *tests/testthat/test-geomorph.R
+72d4c977585d7928cad1a56c36b29c98 *tests/testthat/test-geomorph.R
 d3e5db710ad3bfca0e5be89edc91a2a9 *vignettes/figs/example_spec2.png
 e108112cb2dec057facffbf5571b92bf *vignettes/figs/example_template.png
 f0eeb0d08e88fe8475db103df58344db *vignettes/figs/fixed.3D.png
