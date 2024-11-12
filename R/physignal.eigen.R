@@ -123,7 +123,7 @@ physignal.eigen <- function(Y, phy = NULL, Cov = NULL,
     stop("Either a tree or covariance matrix is needed.\n",
          call. = FALSE)
   if(is.null(Cov))
-    Cov <- RRPP:::fast.phy.vcv(phy)
+    Cov <- vcv.phylo(phy)
   Cov.nms <- rownames(Cov)
   if(unit.tree) {
     if(length(unique(diag(Cov))) == 1)

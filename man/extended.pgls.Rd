@@ -59,7 +59,7 @@ main effects should precede subsequent main effects}
 
 \item{turbo}{A logical value that if TRUE, suppresses coefficient estimation 
 in every random permutation.  This will affect subsequent analyses that 
-require random coefficients (see \code{\link{coef.lm.rrpp}})
+require random coefficients (see \code{\link{RRPP}{coef.lm.rrpp}})
 but might be useful for large data sets for which only ANOVA is needed.}
 
 \item{Parallel}{Either a logical value to indicate whether parallel processing 
@@ -76,7 +76,7 @@ e.g., all possible terms, model matrices, QR decomposition, or random permutatio
 schemes.}
 
 \item{data}{A data frame for the function environment, see 
-\code{\link{rrpp.data.frame}}.  A data frame is required for this analysis.}
+\code{\link{RRPP}{rrpp.data.frame}}.  A data frame is required for this analysis.}
 
 \item{print.progress}{A logical value to indicate whether a progress 
 bar should be printed to the screen.
@@ -191,7 +191,7 @@ comparing within-species patterns across the tree of life.
 Methods in Ecology and Evolution. DOI: 10.1111/2041-210X.14438
 }
 \seealso{
-\code{\link{lm.rrpp.ws}}
+\code{\link{RRPP}{lm.rrpp.ws}}
 }
 \author{
 Dean Adams
