@@ -73,6 +73,7 @@ b8a3ca222e5ef0e2470e1d5833dd7bb4 *man/plethspecies.Rd
 2bb7dbd4a9e6455576b668cd7df86e98 *man/plot.gm.prcomp.Rd
 0116d21c6ae9389dc425aaca082fd67c *man/plot.gpagen.Rd
 71208a14b679efbbaf55f8daba7a0ef3 *man/plot.mshape.Rd
+d3cdc41a718507453cc33d9e88c2442c *man/plot.physignal.eigen.Rd
 c243df60434118dddca6904f3d6de9b0 *man/plot.physignal.Rd
 48b605c1c9d9d90af398205f051e564a *man/plot.physignal.z.Rd
 e1b19a991aa5c05b644349eb00687e39 *man/plot.pls.Rd
@@ -96,6 +97,7 @@ e54a53855f3a44b7d98a2e3802fad0cf *man/print.evolrate1.Rd
 b7e6c44a6550481ceb569b5bf0c94c89 *man/print.gm.prcomp.Rd
 5a1b43e6d504c8876fb2a8fff1f88a83 *man/print.gpagen.Rd
 05e172a5b2f3efa4de8f89af3da3d190 *man/print.morphol.disparity.Rd
+245bab606cee07ff3ae9bc70f6e97cc4 *man/print.physignal.eigen.Rd
 c099404c82877d5f4efc349589e2d21d *man/print.physignal.Rd
 9be5e235b52942e79e8e82202f506ea5 *man/print.physignal.z.Rd
 c9459503ec13f843f971edda31289dc6 *man/print.pls.Rd
@@ -132,6 +134,7 @@ b855ab3d098d9c88761b8c74e60836c4 *man/summary.CR.phylo.Rd
 68dd4db00f079fea47218ea51e9dc8b6 *man/summary.gm.prcomp.Rd
 4650837bdbeb227d95c700d3cb00811a *man/summary.gpagen.Rd
 959f66c73c14ff74e2b3f3807d6ef6d7 *man/summary.morphol.disparity.Rd
+3c56b2096ec4ba6e804591235f620c2d *man/summary.physignal.eigen.Rd
 cebd4d3722633f6509a04c416d0a8fc9 *man/summary.physignal.Rd
 a129dcc4595b984842114893a2d7d14d *man/summary.physignal.z.Rd
 70ff60d1fd9254c8c5ef5e4aa57b2d7c *man/summary.pls.Rd
@@ -141,7 +144,7 @@ e01d50f314a354e0a440204c773bb501 *man/two.b.pls.Rd
 d2755155772526527e4224b17d0dd05d *man/warpRefMesh.Rd
 7bea8d6b17918fd4889e2056ebe0e3d0 *man/warpRefOutline.Rd
 d9119f721918f22c267db843023a86fe *man/writeland.tps.Rd
-25e3a8aa4f3cbc51ea0d2bae7ce1904d *NAMESPACE
+443f35cbb14b7a7eb727fa05b681db13 *NAMESPACE
 1917298a6cbdd17006af0c4f78f3d7f2 *NEWS.md
 e65d7da576d1eb0948aacecf1b235a68 *R/arrayspecs.r
 28a0cd88b6a7a020ff356227cbefe15d *R/bilat.symmetry.r
@@ -169,7 +172,7 @@ aac6a4f8a759473e8c37048e5c8e3d91 *R/findMeanSpec.r
 b792f75d1fb825423b03a8711c0120a4 *R/fixed.angle.r
 14c82d650f7cbbf5ef8786303b1e0373 *R/geomorph.data.frame.r
 2beafdc4c7e63024b958788eef917225 *R/geomorph.support.code.r
-726ac303accb3ed8d42b2f51cb8a6c2f *R/geomorph.utils.r
+201343cd56dde7fbde1a7a0244cf224a *R/geomorph.utils.r
 d8571c8894e54b32c96c2ce94c6b7101 *R/globalIntegration.r
 75acfbfeb12217a526c550c7b8186b81 *R/gm.measurement.error.R
 a279c93b07bd8d5583d1f26ff805871f *R/gm.prcomp.R
@@ -212,9 +215,8 @@ a46c9d7180adf562e1cf5dad7600619c *R/two.b.pls.r
 ce64f40b8badacea0852af718e718355 *R/warpRefOutline.r
 ad572d6203f667d37641cee3adbc72b7 *R/writeland.tps.r
 c74a911cb0e86f68f556cbff5c5f213c *README.md
-d0410ecd8608b7019c84b348277bb76d *revdep/data.sqlite
 0c7f793ce4a81cedc1dfec479f7dce1f *tests/testthat.R
-da5e76b83761d1899c07a0d7e0d02d23 *tests/testthat/test-geomorph.R
+134d12a18e40ecb3af358e376ff3cc8a *tests/testthat/test-geomorph.R
 d3e5db710ad3bfca0e5be89edc91a2a9 *vignettes/figs/example_spec2.png
 e108112cb2dec057facffbf5571b92bf *vignettes/figs/example_template.png
 f0eeb0d08e88fe8475db103df58344db *vignettes/figs/fixed.3D.png
