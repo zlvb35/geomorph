@@ -1,8 +1,8 @@
 ## Resubmission
-This is a patch release, 4.0.8.  It also provides several new functions.
+This is a patch release, 4.0.9.  It also provides several new functions.
 
 ## Test environments
-* local OS X install, R 4.4.0
+* local OS X install, R 4.4.1
 * win-builder (devel and release)
 * R-hub (all platforms)
 
@@ -21,6 +21,6 @@ Fedora Linux R-Devel (clang, gfortram) had RGL and X11 display issues:
 This caused geomorph to not install on this platform. This seems to be internal to R-hub and should have no bearing on the `geomorph 4.0.8` package.
 
 ## Downstream dependencies
-I checked 9 reverse dependencies:
-OK: 9 
+I checked 11 reverse dependencies:
+OK: 11 
 BROKEN: 0
