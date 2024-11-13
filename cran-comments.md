@@ -11,14 +11,15 @@ There were no ERRORs or WARNINGs.
 
 ## R-hub check results
 Windows: OK
-Ubuntu Linux: OK 
+macos: OK 
 
-Fedora Linux R-Devel (clang, gfortram) had RGL and X11 display issues:
+macos-arm64:
+linux-R-devel:
 
-1: In rgl.init(initValue, onlyNULL) : RGL: unable to open X11 display
-2: 'rgl.init' failed 
+1: Warning: 'rgl.init' failed, running with 'rgl.useNULL = TRUE'.
 
-This caused geomorph to not install on this platform. This seems to be internal to R-hub and should have no bearing on the `geomorph 4.0.8` package.
+This caused geomorph to not install on Linux-R-devel and MacOS-Arm64 platforms. This seems to be internal to R-hub and 
+should have no bearing on the `geomorph 4.0.9` package.
 
 ## Downstream dependencies
 I checked 11 reverse dependencies:
