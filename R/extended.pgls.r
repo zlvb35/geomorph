@@ -49,14 +49,14 @@
 #' @param gamma A sample-size scaling parameter that is adjusted to be 1 ("equal")
 #' scaling or the square-root of the sample size for species observations ("sample").
 #' @param data A data frame for the function environment, see 
-#' \code{\link{RRPP}{rrpp.data.frame}}.  A data frame is required for this analysis.
+#' \code{\link[RRPP]{rrpp.data.frame}}.  A data frame is required for this analysis.
 #' @param print.progress A logical value to indicate whether a progress 
 #' bar should be printed to the screen.
 #' This is helpful for long-running analyses.
 #' @param iter Number of iterations for significance testing
 #' @param turbo A logical value that if TRUE, suppresses coefficient estimation 
 #' in every random permutation.  This will affect subsequent analyses that 
-#' require random coefficients (see \code{\link{RRPP}{coef.lm.rrpp}})
+#' require random coefficients (see \code{\link[RRPP]{coef.lm.rrpp}})
 #' but might be useful for large data sets for which only ANOVA is needed.
 #' @param seed An optional argument for setting the seed for random 
 #' permutations of the resampling procedure.
@@ -76,7 +76,7 @@
 #' socket cluster.  
 #' @param ... Arguments typically used in \code{\link{lm}}, such as 
 #' weights or offset, passed on to
-#' \code{\link{RRPP}{lm.rrpp}} for estimation of coefficients.  If both weights and 
+#' \code{\link[RRPP]{lm.rrpp}} for estimation of coefficients.  If both weights and 
 #' a covariance matrix are included,
 #' weights are ignored (since inverses of weights are the diagonal elements 
 #' of weight matrix, used in lieu
@@ -85,7 +85,7 @@
 #' @export
 #' @author Dean Adams   
 #' 
-#' @return An object of class \code{lm.rrpp.ws} is a list containing the 
+#' @return An object of class \code{\link[RRPP]{lm.rrpp.ws}} is a list containing the 
 #' following
 #' \item{call}{The matched call.}
 #' \item{LM}{Linear Model objects, including data (Y), coefficients, 
@@ -115,7 +115,7 @@
 #' frame (perm.schedule), which
 #' is a list of reordered sequences of 1:n, for how residuals were 
 #' randomized.}
-#' @seealso \code{\link{RRPP}{lm.rrpp.ws}}
+#' @seealso \code{\link[RRPP]{lm.rrpp.ws}}
 #' @references Adams, D.C and M.L Collyer. 2024. Extending phylogenetic regression models for 
 #' comparing within-species patterns across the tree of life. 
 #' Methods in Ecology and Evolution. DOI: 10.1111/2041-210X.14438
@@ -167,7 +167,7 @@ extended.pgls<-function(f1, phy = NULL, Cov = NULL, species = NULL,
   if (is.null(phy) && is.null(Cov)) {
     stop("Must provide a phylogeny or a phylogenetic covariance matrix.\n", call. = FALSE)  }
 
-  if(is.null(Cov)) { Cov <- vcv.phylo(phy)}
+  if(is.null(Cov)) { Cov <- fast.phy.vcv(phy)}
 
   if(inherits(f1, "formula")){
     Y <- try(eval(f1[[2]], envir = data , enclos = parent.frame()), silent = TRUE)

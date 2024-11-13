@@ -59,7 +59,7 @@ main effects should precede subsequent main effects}
 
 \item{turbo}{A logical value that if TRUE, suppresses coefficient estimation 
 in every random permutation.  This will affect subsequent analyses that 
-require random coefficients (see \code{\link{RRPP}{coef.lm.rrpp}})
+require random coefficients (see \code{\link[RRPP]{coef.lm.rrpp}})
 but might be useful for large data sets for which only ANOVA is needed.}
 
 \item{Parallel}{Either a logical value to indicate whether parallel processing 
@@ -72,7 +72,7 @@ e.g., all possible terms, model matrices, QR decomposition, or random permutatio
 schemes.}
 
 \item{data}{A data frame for the function environment, see 
-\code{\link{RRPP}{rrpp.data.frame}}.  A data frame is required for this analysis.}
+\code{\link[RRPP]{rrpp.data.frame}}.  A data frame is required for this analysis.}
 
 \item{print.progress}{A logical value to indicate whether a progress 
 bar should be printed to the screen.
@@ -80,14 +80,14 @@ This is helpful for long-running analyses.}
 
 \item{...}{Arguments typically used in \code{\link{lm}}, such as 
 weights or offset, passed on to
-\code{\link{RRPP}{lm.rrpp}} for estimation of coefficients.  If both weights and 
+\code{\link[RRPP]{lm.rrpp}} for estimation of coefficients.  If both weights and 
 a covariance matrix are included,
 weights are ignored (since inverses of weights are the diagonal elements 
 of weight matrix, used in lieu
 of a covariance matrix.)}
 }
 \value{
-An object of class \code{lm.rrpp.ws} is a list containing the 
+An object of class \code{\link[RRPP]{lm.rrpp.ws}} is a list containing the 
 following
 \item{call}{The matched call.}
 \item{LM}{Linear Model objects, including data (Y), coefficients, 
@@ -187,7 +187,7 @@ comparing within-species patterns across the tree of life.
 Methods in Ecology and Evolution. DOI: 10.1111/2041-210X.14438
 }
 \seealso{
-\code{\link{RRPP}{lm.rrpp.ws}}
+\code{\link[RRPP]{lm.rrpp.ws}}
 }
 \author{
 Dean Adams
