@@ -1,6 +1,6 @@
 # CHANGES IN GEOMORPH VERSION 4.0.9
 
-### NEW FEATURES
+### NEW FEATURES 
 
 * New function 'extended.pgls' for evaluating within-species trends in a phylogenetic context
 * New dataset 'pupfish.ws'
