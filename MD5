@@ -1,5 +1,3 @@
-e38457520062fb02c6d9c8adf08cae55 *cran-comments.md
-70eb0d3863aa9161015d1805f8028b1c *CRAN-SUBMISSION
 247b6e5658356e87edfd560687b239fc *data/hummingbirds.rda
 56558754725fea156eb0820f67a4f508 *data/larvalMorph.rda
 c3fc0e7a97f4cbd5b6cd8944d737b11a *data/lizards.rda
@@ -12,8 +10,8 @@ d8e8360c03c03fe45d2100e9c05d4a89 *data/plethodon.rda
 80c6fa53b642b23b378cf036d1b962f1 *data/ratland.rda
 9ba51ab9be03930a4acdcddde8169b33 *data/scallopPLY.rda
 6e5e71b242462e422b716800ffc3c464 *data/scallops.rda
-ec5f060e9d993331601f373f3d497a81 *debug.log
-388922392b4c14a19aab8bb3d18ad665 *DESCRIPTION
+306d5ed72e45347ff4f5f41343e7d316 *debug.log
+8234286abda6699449078bc3dcd2154a *DESCRIPTION
 93888302df16c73a687a212581f6b04e *geomorph.Rproj
 fea090412f23fac4647bd4a9fe54f616 *inst/CITATION
 48ebf0e3514a533f2bf4c1abaa47953a *man/arrayspecs.Rd
@@ -218,6 +216,7 @@ ad572d6203f667d37641cee3adbc72b7 *R/writeland.tps.r
 c74a911cb0e86f68f556cbff5c5f213c *README.md
 0c7f793ce4a81cedc1dfec479f7dce1f *tests/testthat.R
 c5f98a849c58e6f537a6a9c07bd79004 *tests/testthat/test-geomorph.R
+e38457520062fb02c6d9c8adf08cae55 *vignettes/cran-comments.md
 d3e5db710ad3bfca0e5be89edc91a2a9 *vignettes/figs/example_spec2.png
 e108112cb2dec057facffbf5571b92bf *vignettes/figs/example_template.png
 f0eeb0d08e88fe8475db103df58344db *vignettes/figs/fixed.3D.png
