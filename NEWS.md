@@ -6,7 +6,7 @@
 * New dataset 'pupfish.ws'
 * New function `physignal.eigen` for evaluating the dimensions of phylogenetic signal in multivariate data
 * Added an option to `gm.prcomp` to allow the phylogeny to be scaled to unit length
-* Added `groups.first` argument to `gm.measurement.error`, to optionally include groups in ANOVA table.
+* Added `groups.first` argument to `gm.measurement.error`, to optionally include groups in ANOVA table. 
 
 
 ### BUG FIXES
